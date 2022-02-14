@@ -6,9 +6,13 @@
     <link rel="stylesheet" href="./public/styles.css" />
   </head>
   <body>
+    <form id="form">
+      <input type ="text" id="input-name"/>
+      <button id="search" type="submit">search</button>
+    </form>
     <!-- First use API calls to populate the following sections of the DOM with your own data -->
     <a id="github-user-link" href="#" target="blank"><h1 id="github-user-handle">Your name here</h1></a>
-    <img src="#" alt="gitHub-avatar" id="github-user-avatar" />
+    <figure>  <img src="#" alt="gitHub-avatar" id="github-user-avatar" /></figure>
     <p id="repos">Number of repos:&nbsp;<span id="github-user-repos"></span></p>
 
     <!-- Now we'll show details of your repos -->
